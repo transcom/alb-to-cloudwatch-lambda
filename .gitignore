@@ -1,0 +1,18 @@
+# OS and Editor files
+.DS_Store
+*.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.svn
+.idea
+*.swp
+.swp
+
+# Ignore fun directories
+tmp/
+work/
+
+# Locally built releases using `build.sh`
+lambda_alb_to_cloudwatch-v*
+tmp-v*/
